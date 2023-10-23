@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class VentanaPrincipal extends JFrame implements ActionListener{
+
     private ListaPersonas lista;
     private Container contenedor;
     private JLabel nombre, apellidos, telefono, direccion;

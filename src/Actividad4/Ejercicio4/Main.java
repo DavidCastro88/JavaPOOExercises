@@ -2,6 +2,7 @@ package Actividad4.Ejercicio4;
 
 public class Main {
     public static void main(String[] args) {
+
         Equipo equipo1 = new Equipo("Sky","Estados Unidos");
         Velocista velocista1 = new Velocista(123979, "Geraint Thomas",320, 25);
         Escalador escalador1 = new Escalador(123980, "Egan Bernal",25, 10);

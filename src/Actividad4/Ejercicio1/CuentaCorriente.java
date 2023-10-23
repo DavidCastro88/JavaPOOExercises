@@ -12,6 +12,7 @@ public class CuentaCorriente extends  Cuenta{
         if(cantidad>this.saldo){
             this.saldo=0;
             this.sobreGiro=resultado+this.sobreGiro;
+            this.numeroRetiros++;
         }else{
             super.retirar(cantidad);
         }
@@ -27,6 +28,7 @@ public class CuentaCorriente extends  Cuenta{
                 this.sobreGiro = 0;
                 saldo = residuo*-1;
             }
+        numeroConsignaciones++;
         } else {
             super.consignar(cantidad);
         }

@@ -21,8 +21,7 @@ public class Main {
         float saldoInicialAhorros = input.nextFloat();
         System.out.print("Ingrese tasa de interés= ");
         float tasaAhorros = input.nextFloat();
-        CuentaAhorros cuenta2 = new
-                CuentaAhorros(saldoInicialAhorros, tasaAhorros);
+        CuentaAhorros cuenta2 = new CuentaAhorros(saldoInicialAhorros, tasaAhorros);
         System.out.print("Ingresar cantidad a consignar: $");
         float cantidadDepositar = input.nextFloat();
         cuenta2.consignar(cantidadDepositar);
